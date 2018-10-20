@@ -1,0 +1,15 @@
+.member {
+    border: 1px solid black;
+    border-radius: 5px;
+    float:left;
+    display: block;
+    margin: 20px;
+    padding: 10px;
+    font-family: 'Handlee', cursive;
+}
+
+.memberInfo{
+    color: purple;
+    font-weight: bold;
+    font-size: 150%;
+}

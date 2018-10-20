@@ -1,0 +1,47 @@
+.addTaskTitle{
+    font-family: 'Changa One', cursive;
+    font-weight: normal;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 200%;
+    color: rgb(119, 47, 141);
+}
+
+input.ng-untouched+.errMsg{
+    display: none;
+}
+
+.errMsg{
+    color: red;
+    font-family: 'Handlee', cursive;
+}
+
+input{
+    font-family: 'Handlee', cursive;
+    font-size: 150%;
+}
+
+select {
+    font-family: 'Handlee', cursive;
+    font-size: 120%;
+    font-weight: bold;
+}
+
+button {
+    font-family: 'Handlee', cursive;
+    font-size: 110%;
+    font-weight: bolder;
+}
+
+form {
+    text-align: center;
+    margin-top: 50px;
+}
+
+label{
+    font-family: 'Changa One', cursive;
+    font-size: 150%;
+    font-weight: normal;
+    margin-right: 10px;
+}
+

@@ -1,0 +1,18 @@
+<div class="task">
+  <h2 class="taskLabels">Title:</h2>
+  <h4 class="taskInput">{{task.title}}</h4>
+  
+  <h2 class="taskLabels">Description:</h2>
+  <h4 class="taskInput">{{task.body}}</h4>
+
+  <h2 class="taskLabels">Due Date:</h2>
+  <h4 class="taskInput">{{task.date}}</h4><br/>
+  
+  <input type="checkbox" [checked]="task.isDone" (click)="updateTask($event)"/>
+  <label id="doneBox">Done</label>
+  <br/><br/>
+  <input class="btn-danger deleteBtn" type="button" (click)="deleteTask($event)" value="Delete"/>
+  <br/><br/><br/><br/>
+  <h2 class="taskLabels">Nickname:</h2>
+  <h4 class="taskInput">{{task.memberName}}</h4>
+</div>

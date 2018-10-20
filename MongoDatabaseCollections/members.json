@@ -1,0 +1,4 @@
+{"_id":{"$oid":"5b693b44f93c7d0a082779a4"},"name":"Bob","nickname":"\"bobby\"","role":"Dad"}
+{"_id":{"$oid":"5b693b8ef93c7d0a082779a5"},"name":"Cindy","nickname":"\"cinda\"","role":"Mom"}
+{"_id":{"$oid":"5b693baff93c7d0a082779a6"},"name":"Jack","nickname":"\"jacky\"","role":"Son"}
+{"_id":{"$oid":"5b693bd1f93c7d0a082779a7"},"name":"Barbara","nickname":"\"barb\"","role":"Daughter"}

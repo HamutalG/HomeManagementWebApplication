@@ -1,0 +1,19 @@
+ul li a {
+    text-decoration: none;
+    font-size: 150%;
+    border: 1px dashed black;
+    padding: 8px;
+    font-family: 'Changa One', cursive;
+}
+
+ul li {
+    list-style-type: none;
+    display: inline;
+    margin: 50px;
+}
+
+ul {
+    margin-top: 20px;
+    text-align: center;
+}
+

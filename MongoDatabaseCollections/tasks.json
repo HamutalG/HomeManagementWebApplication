@@ -1,0 +1,5 @@
+{"_id":{"$oid":"5b69537d97acb61880ee08ce"},"title":"Bathroom","body":"Clean toilet","date":"10/10/2018","memberName":"bobby","isDone":false,"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5b69555d97acb61880ee08d0"},"title":"Kitchen","body":"Clean oven","date":"15/02/2019","memberName":"jacky","isDone":false,"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5b69578997acb61880ee08d1"},"title":"Kitchen","body":"Clean counters","date":"05/09/18","memberName":"barb","isDone":false,"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5b6957da97acb61880ee08d2"},"title":"Kitchen","body":"Clean cabinets & drawers","date":"09/09/2018","memberName":"cinda","isDone":false,"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5b695be197acb61880ee08d5"},"title":"Living Room","body":"Vacuum","date":"05/11/2018","memberName":"barb","isDone":false,"__v":{"$numberInt":"0"}}

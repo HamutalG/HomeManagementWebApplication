@@ -1,0 +1,29 @@
+.task {
+    border: 1px solid black;
+    border-radius: 5px;
+    float: left;
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Handlee', cursive;
+}
+
+.taskInput{
+    color: blue;
+}
+
+#doneBox{
+    color: rgb(109, 173, 233);
+    font-weight: bolder;
+    text-decoration: underline;
+    font-size: 130%;
+    margin-left: 8px;
+}
+
+.taskLabels{
+    text-decoration: underline;
+}
+
+.deleteBtn {
+    font-size: 150%;
+}

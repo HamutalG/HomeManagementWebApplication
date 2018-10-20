@@ -1,0 +1,25 @@
+<h1 class="addTaskTitle">Add A New Task</h1>
+<form [formGroup]="addForm" (ngSubmit)="onSubmit()">
+
+  <label>Task Title: </label><input type="text" [formControlName]="'title'" placeholder="Task Title" />
+  <div class="errMsg" *ngIf="addForm.get('title').hasError('required')">Required field missing</div><br/><br/>
+
+  <label>Task Description: </label><input type="text" [formControlName]="'body'" placeholder="Task Description" />
+  <div class="errMsg" *ngIf="addForm.get('body').hasError('required')">Required field missing</div><br/><br/>
+
+  <label>Task Due Date: </label><input type="text" [formControlName]="'date'" placeholder="Task Due Date" />
+  <div class="errMsg" *ngIf="addForm.get('date').hasError('required')">Required field missing</div><br/><br/>
+
+  <label>Member to do task: </label><select [formControlName]="'memberName'">
+      <option value="">Members...</option>
+      <option value="bobby">bobby</option>
+      <option value="cinda">cind</option>
+      <option value="jacky">jacky</option>
+      <option value="barb">barb</option>
+  </select>
+  <div class="errMsg" *ngIf="addForm.get('memberName').hasError('required')">Required field missing</div><br/><br/>
+         
+  <button type="submit" [disabled]="!addForm.valid">Add Task!</button>
+
+</form>
+
