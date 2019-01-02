@@ -1,11 +1,11 @@
+<h1 class="title">Tasks:</h1>
 <div class="tasksList">
-  <h1 class="title">Tasks</h1>
-  <app-task *ngFor="let task of tasksArr" [task]="task" ></app-task>
+  <app-task class="listOfTasks" *ngFor="let task of tasksArr" [task]="task" ></app-task>
 </div>
 <br/>
 <hr/>
+<h1 class="title">Home Members:</h1>
 <div class="membersList">
-    <h1 class="title">Home Members</h1>
-  <app-member *ngFor="let member of membersArr" [member]="member" ></app-member>
+  <app-member class="listOfTasks" *ngFor="let member of membersArr" [member]="member" ></app-member>
 </div>
 

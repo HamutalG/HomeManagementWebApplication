@@ -1,15 +1,23 @@
 .member {
-    border: 1px solid black;
-    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 44px 0px rgba(217,217,217,1);
+    -moz-box-shadow: 0px 0px 44px 0px rgba(217,217,217,1);
+    box-shadow: 0px 0px 44px 0px rgba(217,217,217,1);
     float:left;
     display: block;
     margin: 20px;
-    padding: 10px;
+    padding: 20px;
     font-family: 'Handlee', cursive;
+    color: #3C4858;
 }
 
 .memberInfo{
     color: purple;
     font-weight: bold;
     font-size: 150%;
+}
+
+.membersLabels{
+    text-decoration: underline;
+    font-family: 'Sarabun', sans-serif;
+    font-size: 180%;
 }

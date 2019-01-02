@@ -1,6 +1,11 @@
+body{
+    background-color: #F4F5F7;
+}
+
 .mainTitle{
-    font-family: 'Changa One', cursive;
-    font-weight: normal;
+    font-family: 'Sarabun', sans-serif;
+    font-weight: bold;
     font-size: 300%;
+    color: #4c4c4c;
     text-align: center;
 }

@@ -1,9 +1,8 @@
 ul li a {
-    text-decoration: none;
-    font-size: 150%;
-    border: 1px dashed black;
+    text-decoration: underline;
+    font-size: 180%;
     padding: 8px;
-    font-family: 'Changa One', cursive;
+    font-family: 'Sarabun', sans-serif;
 }
 
 ul li {
@@ -15,5 +14,6 @@ ul li {
 ul {
     margin-top: 20px;
     text-align: center;
+    color: #3C4858;
 }
 

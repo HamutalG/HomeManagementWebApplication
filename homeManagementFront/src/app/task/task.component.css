@@ -1,29 +1,42 @@
 .task {
-    border: 1px solid black;
-    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 44px 0px rgba(217,217,217,1);
+    -moz-box-shadow: 0px 0px 44px 0px rgba(217,217,217,1);
+    box-shadow: 0px 0px 44px 0px rgba(217,217,217,1);
     float: left;
     display: block;
     margin: 10px;
-    padding: 10px;
+    padding: 20px;
     font-family: 'Handlee', cursive;
+    color: #3C4858;
 }
 
 .taskInput{
-    color: blue;
+    color: #4AD9D9;
 }
 
 #doneBox{
-    color: rgb(109, 173, 233);
+    color: #36B1BF;
     font-weight: bolder;
-    text-decoration: underline;
+    font-family: 'Sarabun', sans-serif;
     font-size: 130%;
     margin-left: 8px;
 }
 
 .taskLabels{
     text-decoration: underline;
+    font-family: 'Sarabun', sans-serif;
+    font-size: 180%;
 }
 
 .deleteBtn {
-    font-size: 150%;
+    width: 65%;
+    padding: 8px;
+    margin: 0 auto;
+    display: block;
+    font-family: 'Sarabun', sans-serif;
+    font-size: 120%;
+    background-color: #F23C50;
+    color: white;
 }
+
+/*color scheme: Copia de Copia de Copy of Billar*/

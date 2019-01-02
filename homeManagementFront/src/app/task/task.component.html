@@ -11,7 +11,7 @@
   <input type="checkbox" [checked]="task.isDone" (click)="updateTask($event)"/>
   <label id="doneBox">Done</label>
   <br/><br/>
-  <input class="btn-danger deleteBtn" type="button" (click)="deleteTask($event)" value="Delete"/>
+  <input class="btn deleteBtn" type="button" (click)="deleteTask($event)" value="Delete"/>
   <br/><br/><br/><br/>
   <h2 class="taskLabels">Nickname:</h2>
   <h4 class="taskInput">{{task.memberName}}</h4>

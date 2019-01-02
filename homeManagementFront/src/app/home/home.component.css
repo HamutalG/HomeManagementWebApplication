@@ -1,8 +1,11 @@
 .tasksList, .membersList{
     width: 80%;
-    display: block;
-    float: left;
-    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    color: #3C4858;
 }
 
 hr {
@@ -13,6 +16,15 @@ hr {
 }
 
 .title {
-    font-family: 'Changa One', cursive;
+    font-family: 'Sarabun', sans-serif;
     font-weight: normal;
+    display: block;
+    margin-left: 20px;
+    color: #3C4858;
+}
+
+
+.listOfTasks{
+    min-width: 100px;
+    margin: 15px;
 }
